@@ -74,7 +74,9 @@
     <AndroidResource Include="Resources\mipmap-anydpi-v26\icon.xml" />
     <AndroidResource Include="Resources\mipmap-anydpi-v26\icon_round.xml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\check.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Ajca\Ajca.csproj">
       <Project>{EC0A4F7B-197C-48DF-B28F-66E52E7FD48B}</Project>

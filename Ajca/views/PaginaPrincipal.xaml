@@ -25,11 +25,14 @@
                    TranslationX="-75"
                    TranslationY="8"/>
 
+            
             <Frame BorderColor="#B9CFC3"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
                    CornerRadius ="25"
                    >
+                
+                
                 <Label Text="Alfabeto uw cuwa"
                    VerticalOptions="CenterAndExpand" 
                    HorizontalOptions="CenterAndExpand" 

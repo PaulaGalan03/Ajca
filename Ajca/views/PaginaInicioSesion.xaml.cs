@@ -21,5 +21,10 @@ namespace Ajca.views
         {
             await Navigation.PushAsync(new PaginaPrincipal());
         }
+
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PaginaRegistro());
+        }
     }
 }

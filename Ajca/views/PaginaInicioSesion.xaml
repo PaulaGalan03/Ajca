@@ -7,18 +7,20 @@
             <!-- Imagen con logo de la aplicación -->
             <Image Source="logo_app.png" 
             WidthRequest="170" 
-            VerticalOptions="Start" />
+            VerticalOptions="Start"
+                   TranslationY="60"/>
 
             <Entry Placeholder="Ingrese su correo electronico" 
                    Keyboard="Email"
                    VerticalOptions="Center"
                    HorizontalOptions="Center"
-                   />
+                   TranslationY="70"/>
             <Entry Placeholder="Ingrese su contraseña" 
                    IsPassword="True" 
                    TextColor="#D9D26C"
                    VerticalOptions="Center"
-                   HorizontalOptions="Center"/>
+                   HorizontalOptions="Center"
+                   TranslationY="70"/>
             <Button 
                 x:Name="BtnIniciarSesion"
                 Text="INICIAR SESIÓN"
@@ -28,24 +30,30 @@
                 CornerRadius="10"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
-                />
+                TranslationY="80"/>
             <Label
                 Text="OLVIDO SU CONTRASEÑA"
                 TextColor="#73BFB8"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
-                />
+                TranslationY="100"/>
             <Label
                 Text="AÚN NO TENGO UNA CUENTA. QUIERO REGISTRARME"
                 TextColor="#73BFB8"
                 HorizontalOptions="Center"
-                VerticalOptions="Center"/>
+                VerticalOptions="Center"
+                TranslationY="100">
+				<Label.GestureRecognizers>
+					<TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+				</Label.GestureRecognizers>
+            </Label>
             <Label
                 Text="TERMINOS Y CONDICIONES"
                 TextColor="#73BFB8"
                 FontSize="Default"
                 HorizontalOptions="Center"
-                VerticalOptions="Center" />
+                VerticalOptions="Center"
+                TranslationY="250"/>
         </StackLayout>
     </ContentPage.Content>
 

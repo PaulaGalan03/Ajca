@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ajca.views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace Ajca
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new PaginaRegistro());
         }
 
         protected override void OnStart()

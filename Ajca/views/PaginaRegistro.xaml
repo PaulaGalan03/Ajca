@@ -1,39 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Ajca.views.HomePage">
-    <!-- Pagina de registro de usuario -->
-
-    <StackLayout VerticalOptions="Center"
-                 HorizontalOptions="Center"
-                 >
-        <!-- Imagen con logo de la aplicación -->
-        <Image Source="logo_app.png" 
-               WidthRequest="170" 
-               VerticalOptions="Start" />
-        <!-- Texto informativo -->
-        <Label Text="¡Únete a nosotros!" 
-               HorizontalOptions="Center"
-               TextColor="#66D3C8"/>
-        <!-- Boton de registro con facebook-->
-        <Button Text="CONTINUAR CON FACEBOOK" 
-                BackgroundColor="#66D3C8"
-                TextColor="White"/>
-        <!-- Boton de registro con google-->
-        <Button Text="CONTINUAR CON GOOGLE"
-               BackgroundColor="White"
-                BorderColor="#66D3C8" 
-                BorderWidth="2"
-                TextColor="#66D3C8"/>
-        <!-- Link inicio de sesión para quienes ya son miembros-->
-        <Label Text="YA SOY MIEMBRO. INICIAR SESIÓN"
-               TextColor="#66D3C8"
-               HorizontalOptions="Center"/>
-        <!-- Link de politicas de la empresa-->
-        <Label Text="TERMINOS Y CONDICIONES"
-               TextColor="#66D3C8"
-               HorizontalOptions="Center"
-              />
-    </StackLayout>
-
+             x:Class="Ajca.views.PaginaRegistro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

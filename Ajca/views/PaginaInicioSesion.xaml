@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ajca.views.PaginaInicioSesion">
+    <ContentPage.Content>
+        <StackLayout>
+            <!-- Imagen con logo de la aplicación -->
+            <Image Source="logo_app.png" 
+            WidthRequest="170" 
+            VerticalOptions="Start" />
+
+            <Entry Placeholder="Ingrese su correo electronico" 
+                   Keyboard="Email"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   />
+            <Entry Placeholder="Ingrese su contraseña" 
+                   IsPassword="True" 
+                   TextColor="#D9D26C"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+            <Button 
+                x:Name="BtnIniciarSesion"
+                Text="INICIAR SESIÓN"
+                Clicked="BtnIniciarSesion_Clicked"
+                BackgroundColor="#D9D26C"
+                TextColor="White"
+                CornerRadius="10"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                />
+            <Label
+                Text="OLVIDO SU CONTRASEÑA"
+                TextColor="#73BFB8"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                />
+            <Label
+                Text="AÚN NO TENGO UNA CUENTA. QUIERO REGISTRARME"
+                TextColor="#73BFB8"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+            <Label
+                Text="TERMINOS Y CONDICIONES"
+                TextColor="#73BFB8"
+                FontSize="Default"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

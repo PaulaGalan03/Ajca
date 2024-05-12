@@ -17,10 +17,5 @@ namespace Ajca.views
             InitializeComponent();
         }
 
-        private async void BtnIniciarSesion_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new PaginaInicioSesion());
-
-        }
     }
 }

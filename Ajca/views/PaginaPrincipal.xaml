@@ -5,6 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
 
+
             <Label Text="UNIDAD 1"   
                 VerticalOptions="Start" 
                 HorizontalOptions="CenterAndExpand" 
@@ -25,7 +26,7 @@
                    TranslationX="-75"
                    TranslationY="8"/>
 
-            
+           
             <Frame BorderColor="#B9CFC3"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"

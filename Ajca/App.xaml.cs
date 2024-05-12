@@ -13,6 +13,7 @@ namespace Ajca
 
             MainPage = new NavigationPage(new PaginaRegistro());
         }
+        public static MasterDetailPage Modificador { get; set; }
 
         protected override void OnStart()
         {

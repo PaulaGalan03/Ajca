@@ -15,6 +15,8 @@ namespace Ajca.views
         public PaginaPrincipal()
         {
             InitializeComponent();
+            //Definimos nuestra pantalla Master
+
         }
     }
 }

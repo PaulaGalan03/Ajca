@@ -22,7 +22,7 @@
             <Button 
                 x:Name="BtnIniciarSesion"
                 Text="INICIAR SESIÓN"
-                Clicked="BtnIniciarSesion_Clicked"
+                Clicked="BtnIniciarSesion_Clicked"  
                 BackgroundColor="#D9D26C"
                 TextColor="White"
                 CornerRadius="10"

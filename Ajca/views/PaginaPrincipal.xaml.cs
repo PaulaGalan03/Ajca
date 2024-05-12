@@ -10,17 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Ajca.views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PaginaInicioSesion : ContentPage
+    public partial class PaginaPrincipal : ContentPage
     {
-        public PaginaInicioSesion()
+        public PaginaPrincipal()
         {
             InitializeComponent();
-        }
-
-        private async void BtnIniciarSesion_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new PaginaInicioSesion());
-
         }
     }
 }

@@ -2,11 +2,58 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ajca.views.PaginaRegistro">
+    <!-- Pagina de registro de usuario -->
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <StackLayout VerticalOptions="Center"
+              HorizontalOptions="Center"
+                     HeightRequest="800"
+              >
+        <!-- Imagen con logo de la aplicación -->
+        <Image Source="logo_app.png" 
+            WidthRequest="170" 
+            VerticalOptions="Start" />
+        <!-- Texto informativo -->
+        <Label Text="¡Únete a nosotros!" 
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            TextColor="#66D3C8"/>
+        <!-- Boton de registro con facebook-->
+        <Button
+                x:Name="BtnInicioConFacebook" 
+                Clicked="BtnInicioConFacebook_Clicked"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Text="CONTINUAR CON FACEBOOK" 
+                BackgroundColor="#66D3C8"
+                TextColor="White"
+                TranslationY="90"
+                />
+        <!-- Boton de registro con google-->
+        <Button 
+                x:Name="BtnInicioConGoogle"
+                Clicked="BtnInicioConGoogle_Clicked"
+                Text="CONTINUAR CON GOOGLE"
+                BackgroundColor="White"
+             BorderColor="#66D3C8" 
+             BorderWidth="2"
+             TextColor="#66D3C8"
+                 TranslationY="90"/>
+        <!-- Link inicio de sesión para quienes ya son miembros-->
+        <Label Text="YA SOY MIEMBRO. INICIAR SESIÓN"
+                   x:Name="InicioSesion" 
+            TextColor="#66D3C8"
+            HorizontalOptions="Center"
+            TranslationY="180"
+
+                />
+        <!-- Link de politicas de la empresa-->
+        <Label Text="TERMINOS Y CONDICIONES"
+            TextColor="#66D3C8"
+            HorizontalOptions="Center"
+            TranslationY="180"
+           />
+    </StackLayout>
+
     </ContentPage.Content>
+
 </ContentPage>

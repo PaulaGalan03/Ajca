@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajca.Android", "Ajca.Androi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajca.iOS", "Ajca.iOS\Ajca.iOS.csproj", "{FC9DF4B8-0644-4334-B7F1-8628AB8A9840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajca", "Ajca\Ajca.csproj", "{C08EE073-87F2-4EA9-A146-1542CD7F32E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ajca", "Ajca\Ajca.csproj", "{C08EE073-87F2-4EA9-A146-1542CD7F32E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

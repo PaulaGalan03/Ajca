@@ -20,7 +20,7 @@
         <!-- Boton de registro con facebook-->
         <Button
                 x:Name="BtnInicioConFacebook" 
-                Clicked="BtnInicioConFacebook_Clicked"
+                
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
                 Text="CONTINUAR CON FACEBOOK" 
@@ -31,7 +31,7 @@
         <!-- Boton de registro con google-->
         <Button 
                 x:Name="BtnInicioConGoogle"
-                Clicked="BtnInicioConGoogle_Clicked"
+                
                 Text="CONTINUAR CON GOOGLE"
                 BackgroundColor="White"
              BorderColor="#66D3C8" 

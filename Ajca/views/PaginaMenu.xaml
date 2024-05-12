@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ajca.views.PaginaMenu">
     <MasterDetailPage.Master>
-        <ContentPage Title="Menú">
+        <ContentPage Title="Menú"
+                     IconImageSource="menu.png">
+            
             <StackLayout>
                 <Button Text="Opción 1" Clicked="Opcion1_Clicked"/>
                 <Button Text="Opción 2" Clicked="Opcion2_Clicked"/>

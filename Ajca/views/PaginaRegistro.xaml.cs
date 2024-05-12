@@ -16,5 +16,20 @@ namespace Ajca.views
         {
             InitializeComponent();
         }
+
+        private async void BtnInicioConFacebook_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PaginaPrincipal());
+        }
+
+        private async void BtnInicioConGoogle_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PaginaPrincipal());
+        }
+
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PaginaInicioSesion());
+        }
     }
 }

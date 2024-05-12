@@ -20,7 +20,7 @@
         <!-- Boton de registro con facebook-->
         <Button
                 x:Name="BtnInicioConFacebook" 
-                
+                Clicked="BtnInicioConFacebook_Clicked"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
                 Text="CONTINUAR CON FACEBOOK" 
@@ -31,7 +31,7 @@
         <!-- Boton de registro con google-->
         <Button 
                 x:Name="BtnInicioConGoogle"
-                
+                Clicked="BtnInicioConGoogle_Clicked"
                 Text="CONTINUAR CON GOOGLE"
                 BackgroundColor="White"
              BorderColor="#66D3C8" 
@@ -44,8 +44,12 @@
             TextColor="#66D3C8"
             HorizontalOptions="Center"
             TranslationY="180"
-
-                />
+               
+                >
+			<Label.GestureRecognizers>
+				<TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+			</Label.GestureRecognizers>
+        </Label>
         <!-- Link de politicas de la empresa-->
         <Label Text="TERMINOS Y CONDICIONES"
             TextColor="#66D3C8"

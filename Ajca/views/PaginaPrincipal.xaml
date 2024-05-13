@@ -7,7 +7,7 @@
             NavigationPage.HasBackButton="False">
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="check.png" Clicked="ToolbarItem_Clicked"/>
+        <ToolbarItem IconImageSource="notificacion.png" Clicked="ToolbarItem_Clicked"/>
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>

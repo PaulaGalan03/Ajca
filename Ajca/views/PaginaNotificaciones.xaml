@@ -4,9 +4,7 @@
              x:Class="Ajca.views.PaginaNotificaciones">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="hola notificacion"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

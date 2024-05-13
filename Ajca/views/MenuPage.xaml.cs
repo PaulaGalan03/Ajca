@@ -10,22 +10,13 @@ using Xamarin.Forms.Xaml;
 namespace Ajca.views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MenuPage : ContentPage
+	public partial class MenuPage : MasterDetailPage
 	{
 		public MenuPage ()
 		{
 			InitializeComponent ();
+            this.Master = new Master();
 		}
-        private async void Inicio_Clicked(object sender, EventArgs e)
-        {
-            await App.Modificador.Detail.Navigation.PushAsync(new PaginaPrincipal());
-            App.Modificador.IsPresented = false;
-        }
 
-        private async void Notificaciones_Clicked(object sender, EventArgs e)
-        {
-            await App.Modificador.Detail.Navigation.PushAsync(new PaginaNotificaciones());
-            App.Modificador.IsPresented = false;
-        }
     }
 }

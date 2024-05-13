@@ -28,12 +28,12 @@
                 Grid.Column="1" Grid.Row="0"
                 BackgroundColor="#F9F9F9"
                />
-        <Button Text="Editar Perfil"
-                x:Name="BtnEditarPerfil"
-                Clicked="BtnEditarPerfil_Clicked"
+        <Button Text="Preferencias"
+                x:Name="BtnPreferencias"
+                
                 TextColor="#73BFB8"
                 FontAttributes="Bold"
-                FontSize="20" 
+                FontSize="19" 
                 TranslationX="-10"
                 TranslationY="20"
                 BackgroundColor="#F9F9F9"
@@ -60,7 +60,7 @@
         <ImageButton Grid.Column="0" Grid.Row="0" Source="logo_app.png"
                      BackgroundColor="#F9F9F9"
                      TranslationY="20"/>
-        <ImageButton Grid.Column="0" Grid.Row="1" Source="edit.png"
+        <ImageButton Grid.Column="0" Grid.Row="1" Source="settings.png"
                      BackgroundColor="#F9F9F9"
                      TranslationY="20"/>
         <ImageButton Grid.Column="0" Grid.Row="2" Source="info.png"

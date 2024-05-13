@@ -10,18 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Ajca.views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Master : ContentPage
+	public partial class PaginaPreferencias : ContentPage
 	{
-		public Master ()
+		public PaginaPreferencias ()
 		{
 			InitializeComponent ();
 		}
-
-        private async void BtnInicio_Clicked(object sender, EventArgs e)
-        {
-			await Navigation.PushAsync(new MenuPage());
-        }
-
-   
-    }
+	}
 }

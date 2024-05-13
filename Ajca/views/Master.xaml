@@ -30,7 +30,7 @@
                />
         <Button Text="Preferencias"
                 x:Name="BtnPreferencias"
-                
+                Clicked="BtnPreferencias_Clicked"
                 TextColor="#73BFB8"
                 FontAttributes="Bold"
                 FontSize="19" 

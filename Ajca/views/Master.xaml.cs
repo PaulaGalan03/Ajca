@@ -22,6 +22,9 @@ namespace Ajca.views
 			await Navigation.PushAsync(new MenuPage());
         }
 
-   
+        private async void BtnPreferencias_Clicked(object sender, EventArgs e)
+        {
+			await Navigation.PushAsync (new PaginaPreferencias());
+        }
     }
 }

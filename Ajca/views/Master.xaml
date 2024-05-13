@@ -16,11 +16,15 @@
             <ColumnDefinition Width=".5*"/>
             <ColumnDefinition Width=".5*"/>
         </Grid.ColumnDefinitions>
-        <Label Text="Inicio" FontSize="20" Grid.Column="1" Grid.Row="0"/>
-        <Label Text="Inicio" FontSize="20" Grid.Column="1" Grid.Row="1"/>
-        <Label Text="Inicio" FontSize="20" Grid.Column="1" Grid.Row="2"/>
-        <Label Text="Inicio" FontSize="20" Grid.Column="1" Grid.Row="3"/>
+       
+        <Label Text="Inicio" FontSize="20" Grid.Column="1" Grid.Row="0"/>  
+        <Label Text="Editar Perfil" FontSize="20" Grid.Column="1" Grid.Row="1"/>
+        <Label Text="Acerca de" FontSize="20" Grid.Column="1" Grid.Row="2"/>
+        <Label Text="Ayuda" FontSize="20" Grid.Column="1" Grid.Row="3"/>
 
+        <ImageButton Source="logo_app.png"/>
+        <ImageButton Source="logo_app.png"/>
+        <ImageButton Source="logo_app.png"/>
         <ImageButton Source="logo_app.png"/>
     </Grid>
 </ContentPage>

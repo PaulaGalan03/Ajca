@@ -4,9 +4,32 @@
              x:Class="Ajca.views.PaginaEditarPerfil">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Nombre de usuario"
+                   TextColor="#0FA3B1"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   Padding="40,0,10,0"/>
+            <Frame
+                BorderColor="#D3D366"
+                CornerRadius="20" 
+                 >
+                <Label Text="Han Eul"
+                 TextColor="#0FA3B1"
+                    FontSize="Default"/>
+            </Frame>
+            <Label Text="Email"
+                   TextColor="#0FA3B1"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   Padding="40,0,10,0"/>
+            <Frame
+                BorderColor="#D3D366"
+                CornerRadius="20" 
+                 >
+                <Label Text=""
+                 TextColor="#0FA3B1"
+                    FontSize="Default"/>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

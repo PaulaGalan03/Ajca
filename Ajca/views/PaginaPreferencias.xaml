@@ -1,12 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Ajca.views.PaginaPreferencias">
+             x:Class="Ajca.views.PaginaPreferencias"
+             >
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Editar Perfil"
+                    x:Name="BtnEditarPerfil"
+                    FontSize="Medium"
+                    TextColor="#7BA232"
+                    BorderColor="#AED565"
+                    BackgroundColor="White"
+                    BorderWidth="2"
+                    CornerRadius="10"
+                    HeightRequest="48"
+                    WidthRequest="149"
+                    HorizontalOptions="Start"
+                    />
+            <Button Text="Cerrar sesión"
+                    TextColor="#D37866"
+                    FontSize="20"
+                    BackgroundColor="White"
+                    HorizontalOptions="Start"
+                    />
+            <Button Text="Eliminar Cuenta"
+                    TextColor="#D37866"
+                    FontSize="20"
+                    BackgroundColor="White"
+                    HorizontalOptions="Start"
+                    />
+            <Button Text="Avisos"
+                    TextColor="Black"
+                    FontSize="20"
+                    BackgroundColor="White"
+                    HorizontalOptions="Start"
+                    />
+            <Button Text="Ayuda"
+                    TextColor="Black"
+                    FontSize="20"
+                    BackgroundColor="White"
+                    HorizontalOptions="Start"
+                    />
+            <Button Text="Politicas y Condiciones"
+                    TextColor="Black"
+                    FontSize="20"
+                    BackgroundColor="White"
+                    HorizontalOptions="Start"
+                    />
+
         </StackLayout>
     </ContentPage.Content>
+    
 </ContentPage>

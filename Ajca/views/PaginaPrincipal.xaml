@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ajca.views.PaginaPrincipal"
              Title="PaginaPrincipal"
-            >
+            NavigationPage.HasNavigationBar="True">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Menu" Clicked="ToolbarItem_Clicked"/>
     </ContentPage.ToolbarItems>

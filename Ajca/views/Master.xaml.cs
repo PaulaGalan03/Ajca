@@ -10,15 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Ajca.views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MenuPage : MasterDetailPage
+	public partial class Master : ContentPage
 	{
-		public MenuPage ()
+		public Master ()
 		{
 			InitializeComponent ();
-            this.Master = new Master();
-			this.Detail = new NavigationPage(new PaginaPrincipal());
-			App.MasterDet = this;
 		}
-
-    }
+	}
 }

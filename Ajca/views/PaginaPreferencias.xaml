@@ -12,7 +12,6 @@
                 <!-- Agrega un Image dentro del Frame -->
                 <Image Source="logo_app.png"
                     x:Name="PerfilImage"
-                       Source="perfil.png" 
                        Aspect="AspectFill"
                        WidthRequest="120"
                        HeightRequest="120"

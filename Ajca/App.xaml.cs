@@ -12,13 +12,8 @@ namespace Ajca
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new PaginaRegistro())
-            {
-                BarBackgroundColor = Color.FromHex("#73BFB8"),
-                BarTextColor = Color.White
-            };
-        }
-        public static MasterDetailPage Modificador { get; set; }
+            MainPage = new NavigationPage(new PaginaRegistro());
+        } 
 
         protected override void OnStart()
         {

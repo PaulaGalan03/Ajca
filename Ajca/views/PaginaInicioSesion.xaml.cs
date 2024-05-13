@@ -19,7 +19,7 @@ namespace Ajca.views
 
         private async void BtnIniciarSesion_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new PaginaPrincipal());
+            await Navigation.PushAsync(new PaginaNotificaciones());
         }
 
         private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)

@@ -15,7 +15,7 @@ namespace Ajca.views
         public PaginaPrincipal()
         {
             InitializeComponent();
-            NavigationPage.SetHasBackButton(this, false); // Ocultar el botón de regreso
+
 
         }
 

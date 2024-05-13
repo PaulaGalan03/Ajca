@@ -13,8 +13,9 @@
 
  
     <ContentPage.Content>
-  
-        <StackLayout>
+        <ScrollView>
+            
+         <StackLayout>
 
             <Frame>
              <Label Text="UNIDAD 1"   
@@ -38,13 +39,29 @@
             <Frame BorderColor="#B9CFC3"
                    CornerRadius ="25"
                    >
-                <Label Text="Alfabeto uw cuwa"
-                   VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand" 
+                    <RelativeLayout>
+                        
+                        <Image Source="check.png" 
+               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.3}"
+               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"
+               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0}"
+               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0}"/>
+ 
+                        
+                        <Label Text="Alfabeto uw cuwa"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center"
+                               
                    FontFamily="ISTOK WEB" 
                    FontSize="Title" 
                    FontAttributes="Bold"
-                   TextColor="#B9CFC3" />
+                   TextColor="#B9CFC3" 
+                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.7}"
+                   RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"
+                   RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.3}"
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0}"/>                        
+                    </RelativeLayout>
+
 
             </Frame>
             
@@ -115,8 +132,33 @@
                    FontAttributes="Bold"
                    TextColor="#B9CFC3" />
             </Frame>
+                <Frame BorderColor="#B9CFC3"
+                   CornerRadius ="25">
 
-        </StackLayout>
+                    <Label Text="La fonología uw cuwa"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" 
+                   FontFamily="ISTOK WEB" 
+                   FontSize="Title" 
+                   FontAttributes="Bold"
+                   TextColor="#B9CFC3" />
+                </Frame>
+                <Frame BorderColor="#B9CFC3"
+                   CornerRadius ="25">
+
+                    <Label Text="La fonología uw cuwa"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" 
+                   FontFamily="ISTOK WEB" 
+                   FontSize="Title" 
+                   FontAttributes="Bold"
+                   TextColor="#B9CFC3" />
+                </Frame>
+
+            </StackLayout>
+           
+        </ScrollView>
+  
 
     </ContentPage.Content> 
 </ContentPage>

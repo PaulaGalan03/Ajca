@@ -10,28 +10,55 @@
             WidthRequest="170" 
             VerticalOptions="Start"
                    TranslationY="60"/>
-
+            <Frame 
+                BorderColor="#66D3C8"
+                BackgroundColor="White"
+                Padding="20,0,20,0"
+                HeightRequest="60"
+                CornerRadius="56"
+                TranslationY="70"
+                Margin="1"
+                >
+                
             <Entry Placeholder="Ingrese su correo electronico" 
                    Keyboard="Email"
-                   VerticalOptions="Center"
-                   HorizontalOptions="Center"
-                   TranslationY="70"/>
-            <Entry Placeholder="Ingrese su contraseña" 
+                   TextColor="#D9D26C"
+                   FontSize="18"
+                   />                
+            </Frame>
+            <Frame 
+                BorderColor="#66D3C8"
+                BackgroundColor="White"
+                Margin="1"
+                Padding="20,0,20,0"
+                HeightRequest="60"
+                CornerRadius="50"
+                TranslationY="70">
+                
+                
+                <Entry Placeholder="Ingrese su contraseña" 
+                       x:Name="EntryContraseña"
                    IsPassword="True" 
                    TextColor="#D9D26C"
-                   VerticalOptions="Center"
-                   HorizontalOptions="Center"
-                   TranslationY="70"/>
+                   />    
+                
+            </Frame>
+
+
             <Button 
                 x:Name="BtnIniciarSesion"
                 Text="INICIAR SESIÓN"
                 Clicked="BtnIniciarSesion_Clicked" 
                 BackgroundColor="#D9D26C"
                 TextColor="White"
+                FontSize="18"
+                FontAttributes="Bold"
                 CornerRadius="10"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
-                TranslationY="80"/>
+                TranslationY="80"
+                WidthRequest="282"
+                HeightRequest="56"/>
             <Label
                 Text="OLVIDO SU CONTRASEÑA"
                 TextColor="#73BFB8"

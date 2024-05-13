@@ -9,18 +9,18 @@
                    HeightRequest="120"
                    CornerRadius="50"
                    TranslationY="-30">
-                <!-- Agrega un Image dentro del Frame -->
+
                 <Image Source="logo_app.png"
                     x:Name="PerfilImage"
-                       Aspect="AspectFill"
-                       WidthRequest="120"
-                       HeightRequest="120"
+                       Aspect="AspectFit"
+                       WidthRequest="50"
+                       HeightRequest="50"
+                       
                        />
-                
-
             </Frame>
             <Button Text="Editar Perfil"
                     x:Name="BtnEditarPerfil"
+                    Clicked="BtnEditarPerfil_Clicked"
                     FontSize="Medium"
                     TextColor="#7BA232"
                     BorderColor="#AED565"

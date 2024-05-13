@@ -16,15 +16,29 @@
             <ColumnDefinition Width=".5*"/>
             <ColumnDefinition Width=".5*"/>
         </Grid.ColumnDefinitions>
-       
-        <Label Text="Inicio" FontSize="20" Grid.Column="1" Grid.Row="0"/>  
-        <Label Text="Editar Perfil" FontSize="20" Grid.Column="1" Grid.Row="1"/>
-        <Label Text="Acerca de" FontSize="20" Grid.Column="1" Grid.Row="2"/>
-        <Label Text="Ayuda" FontSize="20" Grid.Column="1" Grid.Row="3"/>
 
-        <ImageButton Source="logo_app.png"/>
-        <ImageButton Source="logo_app.png"/>
-        <ImageButton Source="logo_app.png"/>
-        <ImageButton Source="logo_app.png"/>
+        <Button Text="Inicio"
+                x:Name="BtnInicio"
+                FontSize="20" 
+                Grid.Column="1" Grid.Row="0"
+               />
+        <Button Text="Editar Perfil"
+                x:Name="BtnEditarPerfil"
+                FontSize="20" 
+                Grid.Column="1" Grid.Row="1"/>
+        <Button Text="Acerca de" 
+                x:Name="BtnAcercaDe"
+                FontSize="20" 
+                Grid.Column="1" Grid.Row="2"/>
+        <Button Text="Ayuda" 
+                x:Name="BtnAyuda"
+                FontSize="20" 
+                Grid.Column="1" Grid.Row="3"/>
+
+        <ImageButton Grid.Column="0" Grid.Row="0" Source="logo_app.png"/>
+        <ImageButton Grid.Column="0" Grid.Row="1" Source="edit.png"/>
+        <ImageButton Grid.Column="0" Grid.Row="2" Source="info.png"/>
+        <ImageButton Grid.Column="0" Grid.Row="3" Source="help.png"/>
+        
     </Grid>
 </ContentPage>

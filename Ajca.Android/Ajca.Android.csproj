@@ -95,6 +95,9 @@
     <AndroidResource Include="Resources\drawable\logo_app.png" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\drawable\edit.png" />
+    <AndroidResource Include="Resources\drawable\help.png" />
+    <AndroidResource Include="Resources\drawable\info.png" />
     <Content Include="Resources\drawable\menu.png" />
     <AndroidResource Include="Resources\drawable\notificacion.png" />
   </ItemGroup>

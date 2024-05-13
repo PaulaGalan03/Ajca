@@ -7,4 +7,4 @@
             <Label Text="hola notificacion"/>
         </StackLayout>
     </ContentPage.Content>
-</ContentPage>
+</ContentPage>            

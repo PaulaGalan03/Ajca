@@ -19,26 +19,56 @@
 
         <Button Text="Inicio"
                 x:Name="BtnInicio"
+                Clicked="BtnInicio_Clicked"
+                TextColor="#73BFB8"
+                FontAttributes="Bold"
                 FontSize="20" 
+                TranslationX="-50"
+                TranslationY="20"
                 Grid.Column="1" Grid.Row="0"
+                BackgroundColor="#F9F9F9"
                />
         <Button Text="Editar Perfil"
                 x:Name="BtnEditarPerfil"
+                Clicked="BtnEditarPerfil_Clicked"
+                TextColor="#73BFB8"
+                FontAttributes="Bold"
                 FontSize="20" 
+                TranslationX="-10"
+                TranslationY="20"
+                BackgroundColor="#F9F9F9"
                 Grid.Column="1" Grid.Row="1"/>
         <Button Text="Acerca de" 
                 x:Name="BtnAcercaDe"
+                TextColor="#73BFB8"
+                FontAttributes="Bold"
                 FontSize="20" 
+                TranslationX="-25"
+                TranslationY="20"
+                BackgroundColor="#F9F9F9"
                 Grid.Column="1" Grid.Row="2"/>
         <Button Text="Ayuda" 
                 x:Name="BtnAyuda"
+                TextColor="#73BFB8"
+                FontAttributes="Bold"
                 FontSize="20" 
+                TranslationX="-50"
+                TranslationY="20"
+                BackgroundColor="#F9F9F9"
                 Grid.Column="1" Grid.Row="3"/>
 
-        <ImageButton Grid.Column="0" Grid.Row="0" Source="logo_app.png"/>
-        <ImageButton Grid.Column="0" Grid.Row="1" Source="edit.png"/>
-        <ImageButton Grid.Column="0" Grid.Row="2" Source="info.png"/>
-        <ImageButton Grid.Column="0" Grid.Row="3" Source="help.png"/>
+        <ImageButton Grid.Column="0" Grid.Row="0" Source="logo_app.png"
+                     BackgroundColor="#F9F9F9"
+                     TranslationY="20"/>
+        <ImageButton Grid.Column="0" Grid.Row="1" Source="edit.png"
+                     BackgroundColor="#F9F9F9"
+                     TranslationY="20"/>
+        <ImageButton Grid.Column="0" Grid.Row="2" Source="info.png"
+                     BackgroundColor="#F9F9F9"
+                     TranslationY="20"/>
+        <ImageButton Grid.Column="0" Grid.Row="3" Source="help.png"
+                     BackgroundColor="#F9F9F9"
+                     TranslationY="20"/>
         
     </Grid>
 </ContentPage>

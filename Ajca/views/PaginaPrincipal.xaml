@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              x:Class="Ajca.views.PaginaPrincipal"
              Title="PaginaPrincipal"
             NavigationPage.HasNavigationBar="True"
@@ -11,51 +11,44 @@
             IconImageSource="notificacion.png" Clicked="ToolbarItem_Clicked"/>
     </ContentPage.ToolbarItems>
 
+ 
     <ContentPage.Content>
   
         <StackLayout>
 
+            <Frame>
+             <Label Text="UNIDAD 1"   
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Start"
+                    FontFamily="ISTOK WEB" 
+                    FontSize="30" 
+                    TextColor="#0FA3B1" 
+                   />               
+            </Frame>
 
-            <Label Text="UNIDAD 1"   
-                VerticalOptions="Start" 
-                HorizontalOptions="CenterAndExpand" 
-                HorizontalTextAlignment="Start"
+            <Frame>
+             <Label Text="Ortografía Uw Cuwa" 
                    FontFamily="ISTOK WEB" 
-                   FontSize="30" 
-                   TextColor="#0FA3B1" 
-                   TranslationX="-100"
-                   TranslationY="40"/>
-
-            <Label Text="Ortografía Uw Cuwa"
-                   HorizontalTextAlignment="Start"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" 
-                   FontFamily="ISTOK WEB" 
-                   FontSize="20" 
+                   FontAttributes="Bold"
+                   FontSize="19" 
                    TextColor="#0FA3B1"
-                   TranslationX="-75"
-                   TranslationY="8"/>
+                   />               
+            </Frame>
 
-           
             <Frame BorderColor="#B9CFC3"
-                   HorizontalOptions="Center"
-                   VerticalOptions="Center"
                    CornerRadius ="25"
                    >
-                
-                
                 <Label Text="Alfabeto uw cuwa"
                    VerticalOptions="CenterAndExpand" 
                    HorizontalOptions="CenterAndExpand" 
                    FontFamily="ISTOK WEB" 
                    FontSize="Title" 
+                   FontAttributes="Bold"
                    TextColor="#B9CFC3" />
 
             </Frame>
             
             <Frame BorderColor="#B9CFC3"
-                   HorizontalOptions="Center"
-                   VerticalOptions="Center"
                    CornerRadius ="25">
                 
                 <Label Text="El orden alfabético"
@@ -63,44 +56,43 @@
                    HorizontalOptions="CenterAndExpand" 
                    FontFamily="ISTOK WEB" 
                    FontSize="Title" 
+                   FontAttributes="Bold"
                    TextColor="#B9CFC3" />
             </Frame>
 
             <Frame BorderColor="#B9CFC3"
-                   HorizontalOptions="Center"
-                   VerticalOptions="Center"
                    CornerRadius ="25">
                 
                 <Label Text="El formato general de ..."
                    VerticalOptions="CenterAndExpand" 
                    HorizontalOptions="CenterAndExpand" 
                    FontFamily="ISTOK WEB" 
-                   FontSize="Title" 
+                   FontSize="Title"
+                   FontAttributes="Bold"
                    TextColor="#B9CFC3" />
             </Frame>
 
             <!-- Unidad 2 -->
+            <Frame>
             <Label Text="UNIDAD 2"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" 
                    FontFamily="ISTOK WEB" 
                    FontSize="30" 
+                   FontAttributes="Bold"
                    TextColor="#0FA3B1"
-                   TranslationX="-100"
-                   />
-            
+                   />                
+            </Frame>
+
+            <Frame>
             <Label Text="Gramática uw cuwa"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" 
                    FontFamily="ISTOK WEB" 
-                   FontSize="20" 
+                   FontSize="19"
+                   FontAttributes="Bold"
                    TextColor="#0FA3B1" 
-                   TranslationX="-75"
-                   TranslationY="-60"/>
+/>                
+            </Frame>
+
 
             <Frame BorderColor="#B9CFC3"
-                   HorizontalOptions="Center"
-                   VerticalOptions="Center"
                    CornerRadius ="25">
                 
                 <Label Text="Abreviaturas utilizada..."
@@ -108,12 +100,11 @@
                    HorizontalOptions="CenterAndExpand" 
                    FontFamily="ISTOK WEB" 
                    FontSize="Title" 
+                   FontAttributes="Bold"
                    TextColor="#B9CFC3" />
             </Frame>
 
             <Frame BorderColor="#B9CFC3"
-                   HorizontalOptions="Center"
-                   VerticalOptions="Center"
                    CornerRadius ="25">
                 
                 <Label Text="La fonología uw cuwa"
@@ -121,6 +112,7 @@
                    HorizontalOptions="CenterAndExpand" 
                    FontFamily="ISTOK WEB" 
                    FontSize="Title" 
+                   FontAttributes="Bold"
                    TextColor="#B9CFC3" />
             </Frame>
 

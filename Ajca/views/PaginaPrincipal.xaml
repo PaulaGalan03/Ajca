@@ -24,6 +24,7 @@
                     FontFamily="ISTOK WEB" 
                     FontSize="30" 
                     TextColor="#0FA3B1" 
+                    
                    />               
             </Frame>
 
@@ -36,59 +37,47 @@
                    />               
             </Frame>
 
-            <Frame BorderColor="#B9CFC3"
-                   CornerRadius ="25"
-                   >
-                    <RelativeLayout>
+
+                <Button ImageSource="check.png"
+                        x:Name="BtnAlfabetoUwa"
+                        Text="Alfabeto uw cuwa "
+                        TextColor="#B9CFC3"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        BorderColor="#B9CFC3"
+                        BorderWidth="6"
+                        CornerRadius="80"
+                        BackgroundColor="White"
+                        Margin="10"
                         
-                        <Image Source="check.png" 
-                          
-               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.3}"
-               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"
-               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0}"
-               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0}"/>
- 
+                />
+                <Button ImageSource="check.png"
+                        x:Name="BtnOrdenAlfa"
+                        Text="El orden alfabético "
+                        TextColor="#B9CFC3"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        BorderColor="#B9CFC3"
+                        BorderWidth="6"
+                        CornerRadius="80"
+                        BackgroundColor="White"
+                        Margin="10"
                         
-                        <Label Text="Alfabeto uw cuwa"
-                         VerticalOptions="Center"
-                         HorizontalOptions="Center"
-                               
-                   FontFamily="ISTOK WEB" 
-                   FontSize="Title" 
-                   FontAttributes="Bold"
-                   TextColor="#B9CFC3" 
-                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.7}"
-                   RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1}"
-                   RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.3}"
-                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0}"/>                        
-                    </RelativeLayout>
+                />
+                <Button ImageSource="check.png"
+                        x:Name="BtnFormatoGeneral"
+                        Text="El formato general de ..."
+                        TextColor="#B9CFC3"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        BorderColor="#B9CFC3"
+                        BorderWidth="6"
+                        CornerRadius="80"
+                        BackgroundColor="White"
+                        Margin="10"
+                        
+                />
 
-
-            </Frame>
-            
-            <Frame BorderColor="#B9CFC3"
-                   CornerRadius ="25">
-                
-                <Label Text="El orden alfabético"
-                   VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand" 
-                   FontFamily="ISTOK WEB" 
-                   FontSize="Title" 
-                   FontAttributes="Bold"
-                   TextColor="#B9CFC3" />
-            </Frame>
-
-            <Frame BorderColor="#B9CFC3"
-                   CornerRadius ="25">
-                
-                <Label Text="El formato general de ..."
-                   VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand" 
-                   FontFamily="ISTOK WEB" 
-                   FontSize="Title"
-                   FontAttributes="Bold"
-                   TextColor="#B9CFC3" />
-            </Frame>
 
             <!-- Unidad 2 -->
             <Frame>
@@ -99,62 +88,45 @@
                    TextColor="#0FA3B1"
                    />                
             </Frame>
-
-            <Frame>
-            <Label Text="Gramática uw cuwa"
-                   FontFamily="ISTOK WEB" 
-                   FontSize="19"
-                   FontAttributes="Bold"
-                   TextColor="#0FA3B1" 
-/>                
-            </Frame>
-
-
-            <Frame BorderColor="#B9CFC3"
-                   CornerRadius ="25">
-                
-                <Label Text="Abreviaturas utilizada..."
-                   VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand" 
-                   FontFamily="ISTOK WEB" 
-                   FontSize="Title" 
-                   FontAttributes="Bold"
-                   TextColor="#B9CFC3" />
-            </Frame>
-
-            <Frame BorderColor="#B9CFC3"
-                   CornerRadius ="25">
-                
-                <Label Text="La fonología uw cuwa"
-                   VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand" 
-                   FontFamily="ISTOK WEB" 
-                   FontSize="Title" 
-                   FontAttributes="Bold"
-                   TextColor="#B9CFC3" />
-            </Frame>
-                <Frame BorderColor="#B9CFC3"
-                   CornerRadius ="25">
-
-                    <Label Text="La fonología uw cuwa"
-                   VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand" 
-                   FontFamily="ISTOK WEB" 
-                   FontSize="Title" 
-                   FontAttributes="Bold"
-                   TextColor="#B9CFC3" />
-                </Frame>
-                <Frame BorderColor="#B9CFC3"
-                   CornerRadius ="25">
-
-                    <Label Text="La fonología uw cuwa"
-                   VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand" 
-                   FontFamily="ISTOK WEB" 
-                   FontSize="Title" 
-                   FontAttributes="Bold"
-                   TextColor="#B9CFC3" />
-                </Frame>
+                <Button ImageSource="check.png"
+                        x:Name="BtnGramaticaUwa"
+                        Text="Gramática uw cuwa"
+                        TextColor="#B9CFC3"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        BorderColor="#B9CFC3"
+                        BorderWidth="6"
+                        CornerRadius="80"
+                        BackgroundColor="White"
+                        Margin="10"
+                        
+                />
+                <Button ImageSource="check.png"
+                        x:Name="BtnAbreviaturas"
+                        Text="Abreviaturas utilizada..."
+                        TextColor="#B9CFC3"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        BorderColor="#B9CFC3"
+                        BorderWidth="6"
+                        CornerRadius="80"
+                        BackgroundColor="White"
+                        Margin="10"
+                        
+                />
+                <Button ImageSource="check.png"
+                        x:Name="BtnFonologiaUwa"
+                        Text="La fonología uw cuwa"
+                        TextColor="#B9CFC3"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        BorderColor="#B9CFC3"
+                        BorderWidth="6"
+                        CornerRadius="80"
+                        BackgroundColor="White"
+                        Margin="10"
+                        
+                />
 
             </StackLayout>
            

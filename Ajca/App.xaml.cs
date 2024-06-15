@@ -17,14 +17,17 @@ namespace Ajca
 
         protected override void OnStart()
         {
+            Console.WriteLine("OnStart");
         }
 
         protected override void OnSleep()
         {
+            Console.WriteLine("OnSleep");
         }
 
         protected override void OnResume()
         {
+            Console.WriteLine("OnResume");
         }
     }
 }

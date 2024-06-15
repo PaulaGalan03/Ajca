@@ -13,9 +13,11 @@
                 BorderColor="#D3D366"
                 CornerRadius="20" 
                  >
-                <Label Text="Han Eul"
-                 TextColor="#0FA3B1"
-                    FontSize="Default"/>
+                <Entry Placeholder="Nombre Completo" 
+                       PlaceholderColor="#0FA3B1"
+                   TextColor="#0FA3B1"
+                   FontSize="18"
+                   />
             </Frame>
             <Label Text="Email"
                    TextColor="#0FA3B1"

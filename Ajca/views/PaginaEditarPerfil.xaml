@@ -4,7 +4,7 @@
              x:Class="Ajca.views.PaginaEditarPerfil">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Nombre de usuario"
+            <Label Text="Editar nombre de usuario"
                    TextColor="#0FA3B1"
                    FontSize="Medium"
                    FontAttributes="Bold"
@@ -13,10 +13,12 @@
                 BorderColor="#D3D366"
                 CornerRadius="20" 
                  >
-                <Entry Placeholder="Nombre Completo" 
+                <Entry
+                    x:Name="EntEditUser"
+                    Placeholder="Nombre Completo" 
                        PlaceholderColor="#0FA3B1"
-                   TextColor="#0FA3B1"
-                   FontSize="18"
+                       TextColor="#0FA3B1"
+                       FontSize="18"
                    />
             </Frame>
             <Label Text="Email"

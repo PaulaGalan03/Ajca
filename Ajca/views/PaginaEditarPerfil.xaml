@@ -4,7 +4,7 @@
              x:Class="Ajca.views.PaginaEditarPerfil">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Editar nombre de usuario"
+            <Label Text="Nombre"
                    TextColor="#0FA3B1"
                    FontSize="Medium"
                    FontAttributes="Bold"
@@ -16,12 +16,24 @@
                 <Entry
                     x:Name="EntEditUser"
                     Placeholder="Nombre Completo" 
-                       PlaceholderColor="#0FA3B1"
-                       TextColor="#0FA3B1"
-                       FontSize="18"
+                    PlaceholderColor="#0FA3B1"
+                    TextColor="#0FA3B1"
+                    FontSize="18"
                    />
+                
             </Frame>
-            <Label Text="Email"
+            
+            <Button Text="Foto"
+                    BackgroundColor="White"
+                    TextColor="#0FA3B1"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    TextTransform="None"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start"
+                    WidthRequest="400"/>
+            
+            <Label Text="Correo electrónico"
                    TextColor="#0FA3B1"
                    FontSize="Medium"
                    FontAttributes="Bold"
@@ -30,10 +42,61 @@
                 BorderColor="#D3D366"
                 CornerRadius="20" 
                  >
-                <Label Text=""
-                 TextColor="#0FA3B1"
-                    FontSize="Default"/>
+                <Entry
+                    x:Name="EntEditEmail"
+                    Placeholder="Email" 
+                    PlaceholderColor="#0FA3B1"
+                    TextColor="#0FA3B1"
+                    FontSize="18"
+                   />
             </Frame>
+            <Label Text="Número de celular"
+                   TextColor="#0FA3B1"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   Padding="40,0,10,0"/>
+            <Frame
+                BorderColor="#D3D366"
+                CornerRadius="20" 
+                 >
+                <Entry
+                    x:Name="EntCelular"
+                    Placeholder="Número de celular" 
+                    PlaceholderColor="#0FA3B1"
+                    TextColor="#0FA3B1"
+                    FontSize="18"
+                   />
+            </Frame>
+            <Label Text="Contraseña"
+                   TextColor="#0FA3B1"
+                   FontSize="Medium"
+                   FontAttributes="Bold"
+                   Padding="40,0,10,0"/>
+            <Frame BorderColor="#D3D366"
+                   CornerRadius="20">
+                
+                <Entry IsPassword="True"
+                       Placeholder="Contraseña"
+                       PlaceholderColor="#0FA3B1"
+                       TextColor="#0FA3B1"
+                       FontSize="18"/>
+            </Frame>
+
+            <Frame>
+              <Button 
+                  Text="CONFIRMAR"
+                  x:Name="BtnConfirmarEdit"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    BackgroundColor="#AED565"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    CornerRadius="10"
+                    HeightRequest="60"
+                    WidthRequest="220"/>  
+            </Frame>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

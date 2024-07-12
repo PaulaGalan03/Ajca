@@ -4,7 +4,7 @@
              x:Class="Ajca.views.PaginaPreferencias"
              >
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="White">
             <Frame BackgroundColor="#73BFB8"
                    HeightRequest="120"
                    CornerRadius="50"
@@ -32,11 +32,16 @@
                     HorizontalOptions="Start"
                     />
             <Button Text="Cerrar sesión"
+                    x:Name="BtnCerrarSesion"
+                    Clicked="BtnCerrarSesion_Clicked"
                     TextColor="#D37866"
                     FontSize="20"
                     BackgroundColor="White"
                     HorizontalOptions="Start"
-                    />
+                    >
+				
+            </Button>
+            
             <Button Text="Eliminar Cuenta"
                     TextColor="#D37866"
                     FontSize="20"
@@ -61,6 +66,7 @@
                     BackgroundColor="White"
                     HorizontalOptions="Start"
                     />
+           
 
         </StackLayout>
     </ContentPage.Content>

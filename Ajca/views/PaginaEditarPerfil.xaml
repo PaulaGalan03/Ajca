@@ -4,6 +4,7 @@
              x:Class="Ajca.views.PaginaEditarPerfil">
     <ContentPage.Content>
         <StackLayout>
+            <Label/>
             <Label Text="Nombre"
                    TextColor="#0FA3B1"
                    FontSize="Medium"

@@ -21,5 +21,10 @@ namespace Ajca.views
         {
 			await Navigation.PushAsync(new PaginaEditarPerfil());
         }
+
+        private async void BtnCerrarSesion_Clicked(object sender, EventArgs e)
+        {
+			await DisplayAlert("Cerrar Sesión", "¿Está seguro de cerrar la sesión?", "Cerrar");
+        }
     }
 }
